@@ -1,0 +1,29 @@
+Command line:
+   CLOCK_GENERATOR_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56960
+
+Sun Jan 10 14:16:57 2021
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5160.85 Meg
+
+ Total Signals          : 7
+ Total Nets             : 7
+ Total Signal Drivers   : 6
+ Total Blocks           : 4
+ Total Primitive Blocks : 4
+ Total Processes        : 3
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 385
+Total Line Count : 14
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 5160.85 Meg
+
+Sun Jan 10 14:17:21 2021
+
