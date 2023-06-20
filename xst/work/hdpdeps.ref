@@ -1,0 +1,55 @@
+V3 34
+FL "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/CLOCK_GENERATOR.vhd" 2021/01/09.23:41:53 P.20131013
+EN work/CLOCK_GENERATOR 1610610984 \
+      FL "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/CLOCK_GENERATOR.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/CLOCK_GENERATOR/Behavioral 1610610985 \
+      FL "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/CLOCK_GENERATOR.vhd" \
+      EN work/CLOCK_GENERATOR 1610610984
+FL "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/MAIN.vhd" 2021/01/14.10:52:13 P.20131013
+EN work/MAIN 1610610992 \
+      FL "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/MAIN.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/MAIN/Behavioral 1610610993 \
+      FL "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/MAIN.vhd" \
+      EN work/MAIN 1610610992 CP work/CLOCK_GENERATOR CP work/SEVSEG_DRIVER \
+      CP work/SEVSEG_DECODER CP work/Timer
+FL "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/SEVSEG_DECODER.vhd" 2021/01/09.23:36:35 P.20131013
+EN work/SEVSEG_DECODER 1610610988 \
+      FL "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/SEVSEG_DECODER.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/SEVSEG_DECODER/BEHAVIORAL 1610610989 \
+      FL "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/SEVSEG_DECODER.vhd" \
+      EN work/SEVSEG_DECODER 1610610988
+FL "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/SEVSEG_DRIVER.vhd" 2021/01/09.23:36:35 P.20131013
+EN work/SEVSEG_DRIVER 1610610986 \
+      FL "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/SEVSEG_DRIVER.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/SEVSEG_DRIVER/BEHAVIORAL 1610610987 \
+      FL "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/SEVSEG_DRIVER.vhd" \
+      EN work/SEVSEG_DRIVER 1610610986
+FL "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/Time.vhd" 2021/01/14.10:49:02 P.20131013
+EN work/Timer 1610610990 \
+      FL "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/Time.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/Timer/Behavioral 1610610991 \
+      FL "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/Time.vhd" \
+      EN work/Timer 1610610990
+FL C:/Users/Deniz/Desktop/elec204lab/Medication_Reminder/CLOCK_GENERATOR.vhd 2021/01/09.14:51:53 P.20131013
+FL C:/Users/Deniz/Desktop/elec204lab/Medication_Reminder/MAIN.vhd 2021/01/09.14:52:47 P.20131013
+FL C:/Users/Deniz/Desktop/elec204lab/Medication_Reminder/SEVSEG_DECODER.vhd 2021/01/09.15:01:55 P.20131013
+FL C:/Users/Deniz/Desktop/elec204lab/Medication_Reminder/SEVSEG_DRIVER.vhd 2021/01/09.14:51:35 P.20131013
+FL C:/Users/Deniz/Desktop/elec204lab/Medication_Reminder/Time.vhd 2021/01/09.15:01:08 P.20131013
+FL C:/Users/Deniz/Desktop/Medication_Reminder/CLOCK_GENERATOR.vhd 2021/01/09.23:41:53 P.20131013
+FL C:/Users/Deniz/Desktop/Medication_Reminder/MAIN.vhd 2021/01/10.16:36:21 P.20131013
+FL C:/Users/Deniz/Desktop/Medication_Reminder/SEVSEG_DECODER.vhd 2021/01/09.23:36:35 P.20131013
+FL C:/Users/Deniz/Desktop/Medication_Reminder/SEVSEG_DRIVER.vhd 2021/01/09.23:36:35 P.20131013
+FL C:/Users/Deniz/Desktop/Medication_Reminder/Time.vhd 2021/01/10.16:57:50 P.20131013
+FL C:/Users/Hp/Desktop/Medication_Reminder/CLOCK_GENERATOR.vhd 2021/01/09.14:51:53 P.20131013
+FL C:/Users/Hp/Desktop/Medication_Reminder/MAIN.vhd 2021/01/09.17:36:12 P.20131013
+FL C:/Users/Hp/Desktop/Medication_Reminder/SEVSEG_DECODER.vhd 2021/01/09.15:03:39 P.20131013
+FL C:/Users/Hp/Desktop/Medication_Reminder/SEVSEG_DRIVER.vhd 2021/01/09.14:51:35 P.20131013
+FL C:/Users/Hp/Desktop/Medication_Reminder/Time.vhd 2021/01/09.17:38:42 P.20131013

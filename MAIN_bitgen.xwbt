@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Deniz\Desktop\elec204lab\Medication Reminder PROJE\Medication_Reminder\MAIN.ncd
+OUTFILE=C:\Users\Deniz\Desktop\elec204lab\Medication Reminder PROJE\Medication_Reminder\MAIN.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-5vq100
+WORKINGDIR=C:\Users\Deniz\Desktop\elec204lab\Medication Reminder PROJE\Medication_Reminder
+LICENSE=WebPack
+USER_INFO=212056480_0_0_371

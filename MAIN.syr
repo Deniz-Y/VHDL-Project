@@ -1,0 +1,791 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.83 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.83 secs
+ 
+--> Reading design: MAIN.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "MAIN.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "MAIN"
+Output Format                      : NGC
+Target Device                      : xc3s50a-5-vq100
+
+---- Source Options
+Top Module Name                    : MAIN
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/MAIN is now defined in a different file.  It was defined in "C:/Users/Deniz/Desktop/Medication_Reminder/MAIN.vhd", and is now defined in "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/MAIN.vhd".
+WARNING:HDLParsers:3607 - Unit work/MAIN/Behavioral is now defined in a different file.  It was defined in "C:/Users/Deniz/Desktop/Medication_Reminder/MAIN.vhd", and is now defined in "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/MAIN.vhd".
+WARNING:HDLParsers:3607 - Unit work/CLOCK_GENERATOR is now defined in a different file.  It was defined in "C:/Users/Deniz/Desktop/Medication_Reminder/CLOCK_GENERATOR.vhd", and is now defined in "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/CLOCK_GENERATOR.vhd".
+WARNING:HDLParsers:3607 - Unit work/CLOCK_GENERATOR/Behavioral is now defined in a different file.  It was defined in "C:/Users/Deniz/Desktop/Medication_Reminder/CLOCK_GENERATOR.vhd", and is now defined in "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/CLOCK_GENERATOR.vhd".
+WARNING:HDLParsers:3607 - Unit work/SEVSEG_DECODER is now defined in a different file.  It was defined in "C:/Users/Deniz/Desktop/Medication_Reminder/SEVSEG_DECODER.vhd", and is now defined in "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/SEVSEG_DECODER.vhd".
+WARNING:HDLParsers:3607 - Unit work/SEVSEG_DECODER/BEHAVIORAL is now defined in a different file.  It was defined in "C:/Users/Deniz/Desktop/Medication_Reminder/SEVSEG_DECODER.vhd", and is now defined in "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/SEVSEG_DECODER.vhd".
+WARNING:HDLParsers:3607 - Unit work/SEVSEG_DRIVER is now defined in a different file.  It was defined in "C:/Users/Deniz/Desktop/Medication_Reminder/SEVSEG_DRIVER.vhd", and is now defined in "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/SEVSEG_DRIVER.vhd".
+WARNING:HDLParsers:3607 - Unit work/SEVSEG_DRIVER/BEHAVIORAL is now defined in a different file.  It was defined in "C:/Users/Deniz/Desktop/Medication_Reminder/SEVSEG_DRIVER.vhd", and is now defined in "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/SEVSEG_DRIVER.vhd".
+WARNING:HDLParsers:3607 - Unit work/Timer is now defined in a different file.  It was defined in "C:/Users/Deniz/Desktop/Medication_Reminder/Time.vhd", and is now defined in "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/Time.vhd".
+WARNING:HDLParsers:3607 - Unit work/Timer/Behavioral is now defined in a different file.  It was defined in "C:/Users/Deniz/Desktop/Medication_Reminder/Time.vhd", and is now defined in "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/Time.vhd".
+Compiling vhdl file "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/CLOCK_GENERATOR.vhd" in Library work.
+Architecture behavioral of Entity clock_generator is up to date.
+Compiling vhdl file "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/SEVSEG_DRIVER.vhd" in Library work.
+Architecture behavioral of Entity sevseg_driver is up to date.
+Compiling vhdl file "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/SEVSEG_DECODER.vhd" in Library work.
+Architecture behavioral of Entity sevseg_decoder is up to date.
+Compiling vhdl file "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/Time.vhd" in Library work.
+Entity <timer> compiled.
+Entity <timer> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/MAIN.vhd" in Library work.
+Entity <main> compiled.
+Entity <main> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <MAIN> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CLOCK_GENERATOR> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <SEVSEG_DRIVER> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <SEVSEG_DECODER> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <Timer> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <MAIN> in library <work> (Architecture <behavioral>).
+Entity <MAIN> analyzed. Unit <MAIN> generated.
+
+Analyzing Entity <CLOCK_GENERATOR> in library <work> (Architecture <Behavioral>).
+Entity <CLOCK_GENERATOR> analyzed. Unit <CLOCK_GENERATOR> generated.
+
+Analyzing Entity <SEVSEG_DRIVER> in library <work> (Architecture <BEHAVIORAL>).
+Entity <SEVSEG_DRIVER> analyzed. Unit <SEVSEG_DRIVER> generated.
+
+Analyzing Entity <SEVSEG_DECODER> in library <work> (Architecture <BEHAVIORAL>).
+Entity <SEVSEG_DECODER> analyzed. Unit <SEVSEG_DECODER> generated.
+
+Analyzing Entity <Timer> in library <work> (Architecture <Behavioral>).
+WARNING:Xst:819 - "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/Time.vhd" line 78: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <PLUSONE>
+WARNING:Xst:819 - "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/Time.vhd" line 84: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <PLUSONE>
+WARNING:Xst:819 - "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/Time.vhd" line 90: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <PLUSONE>
+WARNING:Xst:819 - "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/Time.vhd" line 96: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <PLUSONE>
+WARNING:Xst:819 - "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/Time.vhd" line 164: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <for_alarm>
+WARNING:Xst:819 - "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/Time.vhd" line 73: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <set_mode>, <r1>, <r2>, <r3>, <r4>, <start>, <m1>, <m>, <s1>, <s>
+Entity <Timer> analyzed. Unit <Timer> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <CLOCK_GENERATOR>.
+    Related source file is "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/CLOCK_GENERATOR.vhd".
+    Found 32-bit up counter for signal <COUNTER>.
+    Found 32-bit comparator less for signal <COUNTER$cmp_lt0000> created at line 53.
+    Found 32-bit up counter for signal <COUNTERS>.
+    Found 32-bit comparator less for signal <COUNTERS$cmp_lt0000> created at line 63.
+    Found 1-bit register for signal <temp>.
+    Found 1-bit register for signal <temps>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   2 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <CLOCK_GENERATOR> synthesized.
+
+
+Synthesizing Unit <SEVSEG_DRIVER>.
+    Related source file is "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/SEVSEG_DRIVER.vhd".
+    Found 4-bit 8-to-1 multiplexer for signal <SEV_SEG_DATA>.
+    Found 3-bit up counter for signal <COUNTER>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   4 Multiplexer(s).
+Unit <SEVSEG_DRIVER> synthesized.
+
+
+Synthesizing Unit <SEVSEG_DECODER>.
+    Related source file is "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/SEVSEG_DECODER.vhd".
+    Found 16x7-bit ROM for signal <SEVSEG_BUS>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <SEVSEG_DECODER> synthesized.
+
+
+Synthesizing Unit <Timer>.
+    Related source file is "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/Time.vhd".
+WARNING:Xst:737 - Found 4-bit latch for signal <d1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 4-bit latch for signal <d2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 4-bit latch for signal <d3>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 4-bit latch for signal <d4>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-of-4 decoder for signal <led>.
+    Found 4-bit up counter for signal <counter1>.
+    Found 4-bit up counter for signal <counter2>.
+    Found 1-bit register for signal <for_alarm>.
+    Found 4-bit register for signal <m>.
+    Found 4-bit subtractor for signal <m$addsub0000> created at line 127.
+    Found 4-bit register for signal <m1>.
+    Found 4-bit subtractor for signal <m1$addsub0000> created at line 131.
+    Found 4-bit up counter for signal <r1>.
+    Found 4-bit up counter for signal <r2>.
+    Found 4-bit up counter for signal <r3>.
+    Found 4-bit up counter for signal <r4>.
+    Found 4-bit register for signal <s>.
+    Found 4-bit subtractor for signal <s$addsub0000> created at line 122.
+    Found 4-bit register for signal <s1>.
+    Found 4-bit subtractor for signal <s1$addsub0000> created at line 125.
+    Summary:
+	inferred   6 Counter(s).
+	inferred  17 D-type flip-flop(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred   1 Decoder(s).
+Unit <Timer> synthesized.
+
+
+Synthesizing Unit <MAIN>.
+    Related source file is "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/MAIN.vhd".
+Unit <MAIN> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 4
+ 4-bit subtractor                                      : 4
+# Counters                                             : 9
+ 3-bit up counter                                      : 1
+ 32-bit up counter                                     : 2
+ 4-bit up counter                                      : 6
+# Registers                                            : 7
+ 1-bit register                                        : 3
+ 4-bit register                                        : 4
+# Latches                                              : 4
+ 4-bit latch                                           : 4
+# Comparators                                          : 2
+ 32-bit comparator less                                : 2
+# Multiplexers                                         : 1
+ 4-bit 8-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 4
+ 4-bit subtractor                                      : 4
+# Counters                                             : 9
+ 3-bit up counter                                      : 1
+ 32-bit up counter                                     : 2
+ 4-bit up counter                                      : 6
+# Registers                                            : 19
+ Flip-Flops                                            : 19
+# Latches                                              : 4
+ 4-bit latch                                           : 4
+# Comparators                                          : 2
+ 32-bit comparator less                                : 2
+# Multiplexers                                         : 1
+ 4-bit 8-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <MAIN> ...
+
+Optimizing unit <CLOCK_GENERATOR> ...
+
+Optimizing unit <SEVSEG_DRIVER> ...
+
+Optimizing unit <Timer> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block MAIN, actual ratio is 22.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 110
+ Flip-Flops                                            : 110
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : MAIN.ngr
+Top Level Output File Name         : MAIN
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 27
+
+Cell Usage :
+# BELS                             : 421
+#      GND                         : 1
+#      INV                         : 14
+#      LUT1                        : 68
+#      LUT2                        : 13
+#      LUT3                        : 54
+#      LUT3_D                      : 1
+#      LUT3_L                      : 1
+#      LUT4                        : 102
+#      LUT4_D                      : 1
+#      LUT4_L                      : 4
+#      MUXCY                       : 86
+#      MUXF5                       : 11
+#      VCC                         : 1
+#      XORCY                       : 64
+# FlipFlops/Latches                : 126
+#      FDC                         : 3
+#      FDCE                        : 4
+#      FDCPE                       : 16
+#      FDE                         : 17
+#      FDP                         : 1
+#      FDR                         : 69
+#      LD                          : 16
+# Clock Buffers                    : 3
+#      BUFG                        : 1
+#      BUFGP                       : 2
+# IO Buffers                       : 25
+#      IBUF                        : 5
+#      OBUF                        : 20
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50avq100-5 
+
+ Number of Slices:                      141  out of    704    20%  
+ Number of Slice Flip Flops:            126  out of   1408     8%  
+ Number of 4 input LUTs:                258  out of   1408    18%  
+ Number of IOs:                          27
+ Number of bonded IOBs:                  27  out of     68    39%  
+ Number of GCLKs:                         3  out of     24    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+MCLK                               | BUFGP                  | 66    |
+CLOCK_GENERATOR/temp               | NONE(DRIVER/COUNTER_2) | 3     |
+TIMER/for_alarm                    | NONE(TIMER/counter1_3) | 8     |
+PLUS_ONE                           | BUFGP                  | 16    |
+SET_MODE                           | IBUF+BUFG              | 16    |
+CLOCK_GENERATOR/temps              | NONE(TIMER/for_alarm)  | 17    |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+----------------------------------------------+------------------------+-------+
+Control Signal                                | Buffer(FF name)        | Load  |
+----------------------------------------------+------------------------+-------+
+RESET                                         | IBUF                   | 8     |
+TIMER/r1_0__and0000(TIMER/m1_mux0001<2>31:O)  | NONE(TIMER/r1_0)       | 1     |
+TIMER/r1_0__or0000(TIMER/r1_0__or00001:O)     | NONE(TIMER/r1_0)       | 1     |
+TIMER/r1_1__and0000(TIMER/r1_1__and00001:O)   | NONE(TIMER/r1_1)       | 1     |
+TIMER/r1_1__or0000(TIMER/r1_1__or00001:O)     | NONE(TIMER/r1_1)       | 1     |
+TIMER/r1_2__and0000(TIMER/r1_2__and00001:O)   | NONE(TIMER/r1_2)       | 1     |
+TIMER/r1_2__or0000(TIMER/r1_2__or00001:O)     | NONE(TIMER/r1_2)       | 1     |
+TIMER/r1_3__and0000(TIMER/m1_mux0001<2>11:O)  | NONE(TIMER/r1_3)       | 1     |
+TIMER/r1_3__or0000(TIMER/r1_3__or00001:O)     | NONE(TIMER/r1_3)       | 1     |
+TIMER/r2_0__and0000(TIMER/m_mux0001<1>19:O)   | NONE(TIMER/r2_0)       | 1     |
+TIMER/r2_0__or0000(TIMER/r2_0__or00001:O)     | NONE(TIMER/r2_0)       | 1     |
+TIMER/r2_1__and0000(TIMER/r2_1__and00001:O)   | NONE(TIMER/r2_1)       | 1     |
+TIMER/r2_1__or0000(TIMER/r2_1__or00001:O)     | NONE(TIMER/r2_1)       | 1     |
+TIMER/r2_2__and0000(TIMER/r2_2__and00001:O)   | NONE(TIMER/r2_2)       | 1     |
+TIMER/r2_2__or0000(TIMER/r2_2__or00001:O)     | NONE(TIMER/r2_2)       | 1     |
+TIMER/r2_3__and0000(TIMER/m_mux0001<1>41:O)   | NONE(TIMER/r2_3)       | 1     |
+TIMER/r2_3__or0000(TIMER/r2_3__or00001:O)     | NONE(TIMER/r2_3)       | 1     |
+TIMER/r3_0__and0000(TIMER/s1_mux0001<2>31:O)  | NONE(TIMER/r3_0)       | 1     |
+TIMER/r3_0__or0000(TIMER/r3_0__or00001:O)     | NONE(TIMER/r3_0)       | 1     |
+TIMER/r3_1__and0000(TIMER/r3_1__and00001:O)   | NONE(TIMER/r3_1)       | 1     |
+TIMER/r3_1__or0000(TIMER/r3_1__or00001:O)     | NONE(TIMER/r3_1)       | 1     |
+TIMER/r3_2__and0000(TIMER/r3_Q_mux0000<2>31:O)| NONE(TIMER/r3_2)       | 1     |
+TIMER/r3_2__or0000(TIMER/r3_2__or00001:O)     | NONE(TIMER/r3_2)       | 1     |
+TIMER/r3_3__and0000(TIMER/s1_mux0001<2>11:O)  | NONE(TIMER/r3_3)       | 1     |
+TIMER/r3_3__or0000(TIMER/r3_3__or00001:O)     | NONE(TIMER/r3_3)       | 1     |
+TIMER/r4_0__and0000(TIMER/s_mux0002<1>11:O)   | NONE(TIMER/r4_0)       | 1     |
+TIMER/r4_0__or0000(TIMER/r4_0__or00001:O)     | NONE(TIMER/r4_0)       | 1     |
+TIMER/r4_1__and0000(TIMER/r4_1__and00001:O)   | NONE(TIMER/r4_1)       | 1     |
+TIMER/r4_1__or0000(TIMER/r4_1__or00001:O)     | NONE(TIMER/r4_1)       | 1     |
+TIMER/r4_2__and0000(TIMER/r4_2__and00001:O)   | NONE(TIMER/r4_2)       | 1     |
+TIMER/r4_2__or0000(TIMER/r4_2__or00001:O)     | NONE(TIMER/r4_2)       | 1     |
+TIMER/r4_3__and0000(TIMER/r4_3__and00001:O)   | NONE(TIMER/r4_3)       | 1     |
+TIMER/r4_3__or0000(TIMER/r4_3__or00001:O)     | NONE(TIMER/r4_3)       | 1     |
+----------------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.158ns (Maximum Frequency: 193.868MHz)
+   Minimum input arrival time before clock: 4.987ns
+   Maximum output required time after clock: 9.554ns
+   Maximum combinational path delay: 6.889ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'MCLK'
+  Clock period: 4.780ns (frequency: 209.205MHz)
+  Total number of paths / destination ports: 2772 / 130
+-------------------------------------------------------------------------
+Delay:               4.780ns (Levels of Logic = 32)
+  Source:            CLOCK_GENERATOR/COUNTERS_1 (FF)
+  Destination:       CLOCK_GENERATOR/COUNTERS_31 (FF)
+  Source Clock:      MCLK rising
+  Destination Clock: MCLK rising
+
+  Data Path: CLOCK_GENERATOR/COUNTERS_1 to CLOCK_GENERATOR/COUNTERS_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.495   0.465  CLOCK_GENERATOR/COUNTERS_1 (CLOCK_GENERATOR/COUNTERS_1)
+     LUT1:I0->O            1   0.561   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<1>_rt (CLOCK_GENERATOR/Mcount_COUNTERS_cy<1>_rt)
+     MUXCY:S->O            1   0.523   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<1> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<1>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<2> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<2>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<3> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<3>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<4> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<4>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<5> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<5>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<6> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<6>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<7> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<7>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<8> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<8>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<9> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<9>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<10> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<10>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<11> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<11>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<12> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<12>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<13> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<13>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<14> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<14>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<15> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<15>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<16> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<16>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<17> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<17>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<18> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<18>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<19> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<19>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<20> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<20>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<21> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<21>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<22> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<22>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<23> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<23>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<24> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<24>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<25> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<25>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<26> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<26>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<27> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<27>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<28> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<28>)
+     MUXCY:CI->O           1   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<29> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<29>)
+     MUXCY:CI->O           0   0.065   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_cy<30> (CLOCK_GENERATOR/Mcount_COUNTERS_cy<30>)
+     XORCY:CI->O           1   0.654   0.000  CLOCK_GENERATOR/Mcount_COUNTERS_xor<31> (CLOCK_GENERATOR/Result<31>1)
+     FDR:D                     0.197          CLOCK_GENERATOR/COUNTERS_31
+    ----------------------------------------
+    Total                      4.780ns (4.315ns logic, 0.465ns route)
+                                       (90.3% logic, 9.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLOCK_GENERATOR/temp'
+  Clock period: 2.955ns (frequency: 338.438MHz)
+  Total number of paths / destination ports: 15 / 6
+-------------------------------------------------------------------------
+Delay:               2.955ns (Levels of Logic = 1)
+  Source:            DRIVER/COUNTER_0 (FF)
+  Destination:       DRIVER/COUNTER_2 (FF)
+  Source Clock:      CLOCK_GENERATOR/temp rising
+  Destination Clock: CLOCK_GENERATOR/temp rising
+
+  Data Path: DRIVER/COUNTER_0 to DRIVER/COUNTER_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             22   0.495   1.012  DRIVER/COUNTER_0 (DRIVER/COUNTER_0)
+     LUT3:I2->O            3   0.561   0.451  DRIVER/COUNTER_cmp_eq00001 (DRIVER/COUNTER_cmp_eq0000)
+     FDR:R                     0.435          DRIVER/COUNTER_0
+    ----------------------------------------
+    Total                      2.955ns (1.491ns logic, 1.464ns route)
+                                       (50.5% logic, 49.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'TIMER/for_alarm'
+  Clock period: 2.357ns (frequency: 424.268MHz)
+  Total number of paths / destination ports: 38 / 12
+-------------------------------------------------------------------------
+Delay:               2.357ns (Levels of Logic = 1)
+  Source:            TIMER/counter1_1 (FF)
+  Destination:       TIMER/counter2_3 (FF)
+  Source Clock:      TIMER/for_alarm rising
+  Destination Clock: TIMER/for_alarm rising
+
+  Data Path: TIMER/counter1_1 to TIMER/counter2_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              5   0.495   0.646  TIMER/counter1_1 (TIMER/counter1_1)
+     LUT4:I0->O            4   0.561   0.499  TIMER/counter1_cmp_eq00001 (TIMER/counter1_cmp_eq0000)
+     FDCE:CE                   0.156          TIMER/counter2_0
+    ----------------------------------------
+    Total                      2.357ns (1.212ns logic, 1.145ns route)
+                                       (51.4% logic, 48.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'PLUS_ONE'
+  Clock period: 2.948ns (frequency: 339.236MHz)
+  Total number of paths / destination ports: 50 / 16
+-------------------------------------------------------------------------
+Delay:               2.948ns (Levels of Logic = 2)
+  Source:            TIMER/r1_3 (FF)
+  Destination:       TIMER/r1_3 (FF)
+  Source Clock:      PLUS_ONE rising
+  Destination Clock: PLUS_ONE rising
+
+  Data Path: TIMER/r1_3 to TIMER/r1_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE:C->Q            7   0.495   0.710  TIMER/r1_3 (TIMER/r1_3)
+     LUT4:I0->O            1   0.561   0.423  TIMER/r1_Q_mux0000<3>_SW1 (N89)
+     LUT4:I1->O            1   0.562   0.000  TIMER/r1_Q_mux0000<3> (TIMER/r1_Q_mux0000<3>)
+     FDCPE:D                   0.197          TIMER/r1_3
+    ----------------------------------------
+    Total                      2.948ns (1.815ns logic, 1.133ns route)
+                                       (61.6% logic, 38.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLOCK_GENERATOR/temps'
+  Clock period: 5.158ns (frequency: 193.868MHz)
+  Total number of paths / destination ports: 298 / 29
+-------------------------------------------------------------------------
+Delay:               5.158ns (Levels of Logic = 4)
+  Source:            TIMER/s_3 (FF)
+  Destination:       TIMER/m_3 (FF)
+  Source Clock:      CLOCK_GENERATOR/temps rising
+  Destination Clock: CLOCK_GENERATOR/temps rising
+
+  Data Path: TIMER/s_3 to TIMER/m_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              9   0.495   0.720  TIMER/s_3 (TIMER/s_3)
+     LUT4:I2->O            1   0.561   0.423  TIMER/for_alarm_not0001112 (TIMER/for_alarm_not0001112)
+     LUT4:I1->O            3   0.562   0.453  TIMER/for_alarm_not0001142 (TIMER/N8)
+     LUT4_D:I3->O          7   0.561   0.625  TIMER/m1_mux0001<1>21 (TIMER/N9)
+     LUT3:I2->O            1   0.561   0.000  TIMER/m1_mux0001<1>36 (TIMER/m1_mux0001<1>)
+     FDE:D                     0.197          TIMER/m1_2
+    ----------------------------------------
+    Total                      5.158ns (2.937ns logic, 2.221ns route)
+                                       (56.9% logic, 43.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'PLUS_ONE'
+  Total number of paths / destination ports: 96 / 32
+-------------------------------------------------------------------------
+Offset:              3.235ns (Levels of Logic = 2)
+  Source:            SET_MODE (PAD)
+  Destination:       TIMER/r1_0 (FF)
+  Destination Clock: PLUS_ONE rising
+
+  Data Path: SET_MODE to TIMER/r1_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            84   0.824   1.195  SET_MODE_IBUF (SET_MODE_IBUF1)
+     LUT4:I0->O            4   0.561   0.499  TIMER/r4_and00001 (TIMER/r4_and0000)
+     FDCPE:CE                  0.156          TIMER/r4_3
+    ----------------------------------------
+    Total                      3.235ns (1.541ns logic, 1.694ns route)
+                                       (47.6% logic, 52.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLOCK_GENERATOR/temps'
+  Total number of paths / destination ports: 102 / 34
+-------------------------------------------------------------------------
+Offset:              4.987ns (Levels of Logic = 4)
+  Source:            START (PAD)
+  Destination:       TIMER/m_3 (FF)
+  Destination Clock: CLOCK_GENERATOR/temps rising
+
+  Data Path: START to TIMER/m_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            79   0.824   1.193  START_IBUF (START_IBUF)
+     LUT2:I0->O            1   0.561   0.465  TIMER/r2_Q_mux0000<3>11 (TIMER/N01)
+     LUT4_D:I0->O          7   0.561   0.625  TIMER/m1_mux0001<1>21 (TIMER/N9)
+     LUT3:I2->O            1   0.561   0.000  TIMER/m1_mux0001<1>36 (TIMER/m1_mux0001<1>)
+     FDE:D                     0.197          TIMER/m1_2
+    ----------------------------------------
+    Total                      4.987ns (2.704ns logic, 2.283ns route)
+                                       (54.2% logic, 45.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLOCK_GENERATOR/temps'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              5.588ns (Levels of Logic = 1)
+  Source:            TIMER/for_alarm (FF)
+  Destination:       ALARM (PAD)
+  Source Clock:      CLOCK_GENERATOR/temps rising
+
+  Data Path: TIMER/for_alarm to ALARM
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              9   0.495   0.697  TIMER/for_alarm (TIMER/for_alarm)
+     OBUF:I->O                 4.396          ALARM_OBUF (ALARM)
+    ----------------------------------------
+    Total                      5.588ns (4.891ns logic, 0.697ns route)
+                                       (87.5% logic, 12.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLOCK_GENERATOR/temp'
+  Total number of paths / destination ports: 186 / 13
+-------------------------------------------------------------------------
+Offset:              9.554ns (Levels of Logic = 6)
+  Source:            DRIVER/COUNTER_0 (FF)
+  Destination:       SEVSEG_DATA<6> (PAD)
+  Source Clock:      CLOCK_GENERATOR/temp rising
+
+  Data Path: DRIVER/COUNTER_0 to SEVSEG_DATA<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             22   0.495   1.097  DRIVER/COUNTER_0 (DRIVER/COUNTER_0)
+     LUT3:I0->O            1   0.561   0.000  DRIVER/COUNTER<2>_6 (DRIVER/COUNTER<2>_6)
+     MUXF5:I1->O           1   0.229   0.357  DRIVER/COUNTER<2>_5_f5 (DRIVER/COUNTER<2>_5_f5)
+     INV:I->O              1   0.562   0.000  DRIVER/COUNTER<2>12_INV_0 (DRIVER/COUNTER<2>11)
+     MUXF5:I0->O           7   0.229   0.710  DRIVER/COUNTER<2>1_f5 (WIRE_SEVSEG_DATA<1>)
+     LUT4:I0->O            1   0.561   0.357  DECODER/Mrom_SEVSEG_BUS41 (SEVSEG_DATA_4_OBUF)
+     OBUF:I->O                 4.396          SEVSEG_DATA_4_OBUF (SEVSEG_DATA<4>)
+    ----------------------------------------
+    Total                      9.554ns (7.033ns logic, 2.521ns route)
+                                       (73.6% logic, 26.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'PLUS_ONE'
+  Total number of paths / destination ports: 112 / 7
+-------------------------------------------------------------------------
+Offset:              9.126ns (Levels of Logic = 6)
+  Source:            TIMER/r3_1 (FF)
+  Destination:       SEVSEG_DATA<6> (PAD)
+  Source Clock:      PLUS_ONE rising
+
+  Data Path: TIMER/r3_1 to SEVSEG_DATA<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE:C->Q            7   0.495   0.668  TIMER/r3_1 (TIMER/r3_1)
+     LUT3:I1->O            1   0.562   0.000  DRIVER/COUNTER<2>_6 (DRIVER/COUNTER<2>_6)
+     MUXF5:I1->O           1   0.229   0.357  DRIVER/COUNTER<2>_5_f5 (DRIVER/COUNTER<2>_5_f5)
+     INV:I->O              1   0.562   0.000  DRIVER/COUNTER<2>12_INV_0 (DRIVER/COUNTER<2>11)
+     MUXF5:I0->O           7   0.229   0.710  DRIVER/COUNTER<2>1_f5 (WIRE_SEVSEG_DATA<1>)
+     LUT4:I0->O            1   0.561   0.357  DECODER/Mrom_SEVSEG_BUS41 (SEVSEG_DATA_4_OBUF)
+     OBUF:I->O                 4.396          SEVSEG_DATA_4_OBUF (SEVSEG_DATA<4>)
+    ----------------------------------------
+    Total                      9.126ns (7.034ns logic, 2.092ns route)
+                                       (77.1% logic, 22.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'TIMER/for_alarm'
+  Total number of paths / destination ports: 56 / 7
+-------------------------------------------------------------------------
+Offset:              7.903ns (Levels of Logic = 4)
+  Source:            TIMER/counter1_0 (FF)
+  Destination:       SEVSEG_DATA<4> (PAD)
+  Source Clock:      TIMER/for_alarm rising
+
+  Data Path: TIMER/counter1_0 to SEVSEG_DATA<4>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              6   0.495   0.635  TIMER/counter1_0 (TIMER/counter1_0)
+     LUT4:I1->O            1   0.562   0.000  DRIVER/COUNTER<2>4 (DRIVER/COUNTER<2>)
+     MUXF5:I1->O           7   0.229   0.668  DRIVER/COUNTER<2>_f5 (WIRE_SEVSEG_DATA<0>)
+     LUT4:I1->O            1   0.562   0.357  DECODER/Mrom_SEVSEG_BUS41 (SEVSEG_DATA_4_OBUF)
+     OBUF:I->O                 4.396          SEVSEG_DATA_4_OBUF (SEVSEG_DATA<4>)
+    ----------------------------------------
+    Total                      7.903ns (6.244ns logic, 1.659ns route)
+                                       (79.0% logic, 21.0% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 8 / 4
+-------------------------------------------------------------------------
+Delay:               6.889ns (Levels of Logic = 3)
+  Source:            SET_SELECT<0> (PAD)
+  Destination:       LED_digit<3> (PAD)
+
+  Data Path: SET_SELECT<0> to LED_digit<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   0.824   0.751  SET_SELECT_0_IBUF (SET_SELECT_0_IBUF)
+     LUT2:I0->O            1   0.561   0.357  TIMER/Mdecod_led31 (LED_digit_3_OBUF)
+     OBUF:I->O                 4.396          LED_digit_3_OBUF (LED_digit<3>)
+    ----------------------------------------
+    Total                      6.889ns (5.781ns logic, 1.108ns route)
+                                       (83.9% logic, 16.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 19.00 secs
+Total CPU time to Xst completion: 18.96 secs
+ 
+--> 
+
+Total memory usage is 4522660 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   20 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

@@ -1,0 +1,70 @@
+xst -intstyle ise -ifn "C:/Users/Deniz/Desktop/elec204lab/Medication_Reminder/MAIN.xst" -ofn "C:/Users/Deniz/Desktop/elec204lab/Medication_Reminder/MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Deniz/Desktop/elec204lab/Medication_Reminder/MAIN.xst" -ofn "C:/Users/Deniz/Desktop/elec204lab/Medication_Reminder/MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MAIN.ucf -p xc3s50a-vq100-5 MAIN.ngc MAIN.ngd  
+map -intstyle ise -p xc3s50a-vq100-5 -cm area -ir off -pr off -c 100 -o MAIN_map.ncd MAIN.ngd MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 MAIN_map.ncd MAIN.ncd MAIN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MAIN.twx MAIN.ncd -o MAIN.twr MAIN.pcf -ucf MAIN.ucf 
+bitgen -intstyle ise -f MAIN.ut MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Deniz/Desktop/elec204lab/Medication_Reminder/MAIN.xst" -ofn "C:/Users/Deniz/Desktop/elec204lab/Medication_Reminder/MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Deniz/Desktop/elec204lab/Medication_Reminder/MAIN.xst" -ofn "C:/Users/Deniz/Desktop/elec204lab/Medication_Reminder/MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MAIN.ucf -p xc3s50a-vq100-5 MAIN.ngc MAIN.ngd  
+map -intstyle ise -p xc3s50a-vq100-5 -cm area -ir off -pr off -c 100 -o MAIN_map.ncd MAIN.ngd MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 MAIN_map.ncd MAIN.ncd MAIN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MAIN.twx MAIN.ncd -o MAIN.twr MAIN.pcf -ucf MAIN.ucf 
+bitgen -intstyle ise -f MAIN.ut MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Deniz/Desktop/elec204lab/Medication_Reminder/MAIN.xst" -ofn "C:/Users/Deniz/Desktop/elec204lab/Medication_Reminder/MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MAIN.ucf -p xc3s50a-vq100-5 MAIN.ngc MAIN.ngd  
+map -intstyle ise -p xc3s50a-vq100-5 -cm area -ir off -pr off -c 100 -o MAIN_map.ncd MAIN.ngd MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 MAIN_map.ncd MAIN.ncd MAIN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MAIN.twx MAIN.ncd -o MAIN.twr MAIN.pcf -ucf MAIN.ucf 
+bitgen -intstyle ise -f MAIN.ut MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Hp/Desktop/Medication_Reminder/MAIN.xst" -ofn "C:/Users/Hp/Desktop/Medication_Reminder/MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Hp/Desktop/Medication_Reminder/MAIN.xst" -ofn "C:/Users/Hp/Desktop/Medication_Reminder/MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Hp/Desktop/Medication_Reminder/MAIN.xst" -ofn "C:/Users/Hp/Desktop/Medication_Reminder/MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MAIN.ucf -p xc3s50a-vq100-5 MAIN.ngc MAIN.ngd  
+map -intstyle ise -p xc3s50a-vq100-5 -cm area -ir off -pr off -c 100 -o MAIN_map.ncd MAIN.ngd MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 MAIN_map.ncd MAIN.ncd MAIN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MAIN.twx MAIN.ncd -o MAIN.twr MAIN.pcf -ucf MAIN.ucf 
+bitgen -intstyle ise -f MAIN.ut MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Deniz/Desktop/Medication_Reminder/MAIN.xst" -ofn "C:/Users/Deniz/Desktop/Medication_Reminder/MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MAIN.ucf -p xc3s50a-vq100-5 MAIN.ngc MAIN.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MAIN.ucf -p xc3s50a-vq100-5 MAIN.ngc MAIN.ngd  
+map -intstyle ise -p xc3s50a-vq100-5 -cm area -ir off -pr off -c 100 -o MAIN_map.ncd MAIN.ngd MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 MAIN_map.ncd MAIN.ncd MAIN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MAIN.twx MAIN.ncd -o MAIN.twr MAIN.pcf -ucf MAIN.ucf 
+bitgen -intstyle ise -f MAIN.ut MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Deniz/Desktop/Medication_Reminder/MAIN.xst" -ofn "C:/Users/Deniz/Desktop/Medication_Reminder/MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MAIN.ucf -p xc3s50a-vq100-5 MAIN.ngc MAIN.ngd  
+map -intstyle ise -p xc3s50a-vq100-5 -cm area -ir off -pr off -c 100 -o MAIN_map.ncd MAIN.ngd MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 MAIN_map.ncd MAIN.ncd MAIN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MAIN.twx MAIN.ncd -o MAIN.twr MAIN.pcf -ucf MAIN.ucf 
+bitgen -intstyle ise -f MAIN.ut MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Deniz/Desktop/Medication_Reminder/MAIN.xst" -ofn "C:/Users/Deniz/Desktop/Medication_Reminder/MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MAIN.ucf -p xc3s50a-vq100-5 MAIN.ngc MAIN.ngd  
+map -intstyle ise -p xc3s50a-vq100-5 -cm area -ir off -pr off -c 100 -o MAIN_map.ncd MAIN.ngd MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 MAIN_map.ncd MAIN.ncd MAIN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MAIN.twx MAIN.ncd -o MAIN.twr MAIN.pcf -ucf MAIN.ucf 
+bitgen -intstyle ise -f MAIN.ut MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Deniz/Desktop/Medication_Reminder/MAIN.xst" -ofn "C:/Users/Deniz/Desktop/Medication_Reminder/MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MAIN.ucf -p xc3s50a-vq100-5 MAIN.ngc MAIN.ngd  
+map -intstyle ise -p xc3s50a-vq100-5 -cm area -ir off -pr off -c 100 -o MAIN_map.ncd MAIN.ngd MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 MAIN_map.ncd MAIN.ncd MAIN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MAIN.twx MAIN.ncd -o MAIN.twr MAIN.pcf -ucf MAIN.ucf 
+bitgen -intstyle ise -f MAIN.ut MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Deniz/Desktop/Medication_Reminder/MAIN.xst" -ofn "C:/Users/Deniz/Desktop/Medication_Reminder/MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MAIN.ucf -p xc3s50a-vq100-5 MAIN.ngc MAIN.ngd  
+map -intstyle ise -p xc3s50a-vq100-5 -cm area -ir off -pr off -c 100 -o MAIN_map.ncd MAIN.ngd MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 MAIN_map.ncd MAIN.ncd MAIN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MAIN.twx MAIN.ncd -o MAIN.twr MAIN.pcf -ucf MAIN.ucf 
+bitgen -intstyle ise -f MAIN.ut MAIN.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MAIN.ucf -p xc3s50a-vq100-5 "MAIN.ngc" MAIN.ngd  
+map -intstyle ise -p xc3s50a-vq100-5 -cm area -ir off -pr off -c 100 -o MAIN_map.ncd MAIN.ngd MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 MAIN_map.ncd MAIN.ncd MAIN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MAIN.twx MAIN.ncd -o MAIN.twr MAIN.pcf -ucf MAIN.ucf 
+bitgen -intstyle ise -f MAIN.ut MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/MAIN.xst" -ofn "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MAIN.ucf -p xc3s50a-vq100-5 "MAIN.ngc" MAIN.ngd  
+map -intstyle ise -p xc3s50a-vq100-5 -cm area -ir off -pr off -c 100 -o MAIN_map.ncd MAIN.ngd MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 MAIN_map.ncd MAIN.ncd MAIN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MAIN.twx MAIN.ncd -o MAIN.twr MAIN.pcf -ucf MAIN.ucf 
+bitgen -intstyle ise -f MAIN.ut MAIN.ncd 

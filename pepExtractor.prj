@@ -1,0 +1,5 @@
+work	"CLOCK_GENERATOR.vhd"
+work	"MAIN.vhd"
+work	"SEVSEG_DECODER.vhd"
+work	"SEVSEG_DRIVER.vhd"
+work	"Time.vhd"

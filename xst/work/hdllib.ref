@@ -1,0 +1,10 @@
+EN sevseg_decoder NULL "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/SEVSEG_DECODER.vhd" sub00/vhpl04 1610610988
+EN clock_generator NULL "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/CLOCK_GENERATOR.vhd" sub00/vhpl00 1610610984
+AR main behavioral "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/MAIN.vhd" sub00/vhpl09 1610610993
+EN sevseg_driver NULL "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/SEVSEG_DRIVER.vhd" sub00/vhpl02 1610610986
+AR sevseg_driver behavioral "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/SEVSEG_DRIVER.vhd" sub00/vhpl03 1610610987
+AR clock_generator behavioral "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/CLOCK_GENERATOR.vhd" sub00/vhpl01 1610610985
+AR sevseg_decoder behavioral "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/SEVSEG_DECODER.vhd" sub00/vhpl05 1610610989
+EN main NULL "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/MAIN.vhd" sub00/vhpl08 1610610992
+AR timer behavioral "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/Time.vhd" sub00/vhpl07 1610610991
+EN timer NULL "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/Time.vhd" sub00/vhpl06 1610610990

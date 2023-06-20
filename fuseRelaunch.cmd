@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/main_sim_isim_beh.exe" -prj "C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/main_sim_beh.prj" "work.main_sim" 

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MAIN</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Deniz/Desktop/Medication_Reminder/MAIN.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/MAIN.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MAIN/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Deniz/Desktop/Medication_Reminder/MAIN.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/MAIN.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/CLOCK_GENERATOR</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Deniz/Desktop/Medication_Reminder/CLOCK_GENERATOR.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/CLOCK_GENERATOR.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/CLOCK_GENERATOR/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Deniz/Desktop/Medication_Reminder/CLOCK_GENERATOR.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/CLOCK_GENERATOR.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/SEVSEG_DECODER</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Deniz/Desktop/Medication_Reminder/SEVSEG_DECODER.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/SEVSEG_DECODER.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/SEVSEG_DECODER/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Deniz/Desktop/Medication_Reminder/SEVSEG_DECODER.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/SEVSEG_DECODER.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/SEVSEG_DRIVER</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Deniz/Desktop/Medication_Reminder/SEVSEG_DRIVER.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/SEVSEG_DRIVER.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/SEVSEG_DRIVER/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Deniz/Desktop/Medication_Reminder/SEVSEG_DRIVER.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/SEVSEG_DRIVER.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Timer</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Deniz/Desktop/Medication_Reminder/Time.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/Time.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Timer/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Deniz/Desktop/Medication_Reminder/Time.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/Time.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/Time.vhd</arg>&quot; line <arg fmt="%d" index="2">78</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;PLUSONE&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/Time.vhd</arg>&quot; line <arg fmt="%d" index="2">84</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;PLUSONE&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/Time.vhd</arg>&quot; line <arg fmt="%d" index="2">90</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;PLUSONE&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/Time.vhd</arg>&quot; line <arg fmt="%d" index="2">96</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;PLUSONE&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/Time.vhd</arg>&quot; line <arg fmt="%d" index="2">164</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;for_alarm&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Deniz/Desktop/elec204lab/Medication Reminder PROJE/Medication_Reminder/Time.vhd</arg>&quot; line <arg fmt="%d" index="2">73</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;set_mode&gt;, &lt;r1&gt;, &lt;r2&gt;, &lt;r3&gt;, &lt;r4&gt;, &lt;start&gt;, &lt;m1&gt;, &lt;m&gt;, &lt;s1&gt;, &lt;s&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">4</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">d1</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">4</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">d2</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">4</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">d3</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">4</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">d4</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+
